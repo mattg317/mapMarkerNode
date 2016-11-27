@@ -1,5 +1,7 @@
 //var markers = require("../../data/locations.js")
 
+//This file has the correct click and dis appear tab.
+
 console.log("working");
 var geocoder;
 var map;
@@ -42,7 +44,7 @@ function addName(marker, message) {
     infowindow.setContent(message);
     infowindow.open(marker.get('map'), marker);
     $('#form').append("<p>"+ message+"</p>")
-    alert("hi")
+
   });
 }
 
